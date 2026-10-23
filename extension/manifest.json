@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "B站工作台连接",
+  "version": "0.1.0",
+  "description": "Chrome侧栏连接本机工作台，主动绑定B站标签页，读取页面、控制播放并返回执行结果。",
+  "minimum_chrome_version": "116",
+  "permissions": ["activeTab", "storage", "scripting", "sidePanel"],
+  "host_permissions": ["http://127.0.0.1/*", "https://www.bilibili.com/*", "https://space.bilibili.com/*"],
+  "background": {"service_worker":"background.js"},
+  "action": {"default_title": "B站工作台"},
+  "side_panel": {"default_path":"panel.html"},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'none'"}
+}

@@ -1,0 +1,471 @@
+{
+  "schema": 1,
+  "account_mid": 42,
+  "source_folder": {
+    "id": 1,
+    "title": "示例来源"
+  },
+  "inventory_complete": true,
+  "videos": [
+    {
+      "bvid": "BV1AbCdEfG00",
+      "aid": 1000,
+      "type": 2,
+      "title": "example-skill 合成视频0",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2000,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG01",
+      "aid": 1001,
+      "type": 2,
+      "title": "example-skill 合成视频1",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2001,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG02",
+      "aid": 1002,
+      "type": 2,
+      "title": "example-skill 合成视频2",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2002,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG03",
+      "aid": 1003,
+      "type": 2,
+      "title": "合成视频3",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2003,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG04",
+      "aid": 1004,
+      "type": 2,
+      "title": "合成视频4",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2004,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG05",
+      "aid": 1005,
+      "type": 2,
+      "title": "合成视频5",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2005,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG06",
+      "aid": 1006,
+      "type": 2,
+      "title": "合成视频6",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2006,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG07",
+      "aid": 1007,
+      "type": 2,
+      "title": "合成视频7",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2007,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG08",
+      "aid": 1008,
+      "type": 2,
+      "title": "合成视频8",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2008,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG09",
+      "aid": 1009,
+      "type": 2,
+      "title": "合成视频9",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2009,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG10",
+      "aid": 1010,
+      "type": 2,
+      "title": "合成视频10",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2010,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG11",
+      "aid": 1011,
+      "type": 2,
+      "title": "合成视频11",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2011,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG12",
+      "aid": 1012,
+      "type": 2,
+      "title": "合成视频12",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2012,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG13",
+      "aid": 1013,
+      "type": 2,
+      "title": "合成视频13",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2013,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG14",
+      "aid": 1014,
+      "type": 2,
+      "title": "合成视频14",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2014,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG15",
+      "aid": 1015,
+      "type": 2,
+      "title": "合成视频15",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2015,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG16",
+      "aid": 1016,
+      "type": 2,
+      "title": "合成视频16",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2016,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG17",
+      "aid": 1017,
+      "type": 2,
+      "title": "合成视频17",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2017,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG18",
+      "aid": 1018,
+      "type": 2,
+      "title": "合成视频18",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2018,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bvid": "BV1AbCdEfG19",
+      "aid": 1019,
+      "type": 2,
+      "title": "合成视频19",
+      "description": "仅用于离线测试的合成内容",
+      "all_parts_verified": true,
+      "expected_parts": 1,
+      "parts": [
+        {
+          "cid": 2019,
+          "identity_verified": true,
+          "source": "synthetic",
+          "segments": [
+            {
+              "text": "这是合成的知识解释示例。",
+              "start": 0,
+              "end": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

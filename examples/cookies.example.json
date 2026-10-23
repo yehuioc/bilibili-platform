@@ -1,0 +1,17 @@
+{
+  "synthetic_example": true,
+  "cookies": [
+    {
+      "domain": ".bilibili.com",
+      "path": "/",
+      "name": "SESSDATA",
+      "value": "REPLACE_LOCALLY"
+    },
+    {
+      "domain": ".bilibili.com",
+      "path": "/",
+      "name": "bili_jct",
+      "value": "REPLACE_LOCALLY"
+    }
+  ]
+}

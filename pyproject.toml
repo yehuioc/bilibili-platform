@@ -1,0 +1,38 @@
+[project]
+name = "bilibili-platform"
+version = "0.1.0"
+description = "B站公共平台适配与收藏内容分类插件"
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28,<1"]
+
+[project.urls]
+Repository = "https://github.com/yehuioc/bilibili-platform"
+
+[project.scripts]
+bili-platform = "bili_platform.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.3,<9", "ruff>=0.9,<1"]
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bili_platform"]
+
+[tool.hatch.build]
+exclude = ["/private", "/.cache", "/.tmp", "/.venv", "/dist", "/build", "/data", "/output", "/downloads", "/media", "/credentials", "/upstream", "/tools/bin"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/extension", "/tools", "/tests", "/docs", "/examples", "README.md", "THIRD_PARTY_NOTICES.md", "LICENSE", "pyproject.toml", "uv.lock", "打开拾藏.cmd", ".gitignore"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拾藏 · 私人视频书架</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="拾藏首页"><span class="brand-mark">拾</span><span>拾藏<small>你的私人视频书架</small></span></a>
+  <div class="side-label">我的书架</div><nav id="views" aria-label="书架视图"></nav>
+  <div class="side-label">来源收藏夹 <button id="import-button" class="icon-button" aria-label="导入收藏夹">＋</button></div><nav id="folders" aria-label="来源收藏夹"></nav>
+  <div class="side-label">我的标签 <button id="manage-tags" class="icon-button" aria-label="管理标签">⋯</button></div><nav id="tag-list" aria-label="标签筛选"></nav>
+  <footer><span class="local-dot"></span> 标注保存在本机 <button id="about-button" class="text-button">使用说明</button><small id="account-label"></small></footer>
+</aside>
+<main>
+  <header class="topbar"><span class="breadcrumb">私人空间 <span>/</span> 视频收藏</span><div class="header-actions"><a class="quiet" href="/connection" target="_blank" rel="noopener">浏览器连接 ↗</a><button id="undo-button" class="quiet">↶ 撤销</button><button id="backup-button" class="quiet">备份与恢复</button><button id="sync-button" class="primary">↻ 更新元数据</button></div></header>
+  <section class="intro"><div><p class="eyebrow">COLLECT WITH INTENTION</p><h1 id="page-title">所有收藏<span class="title-dot">.</span></h1><p id="page-description">记下为什么收藏，让下次想学的时候，找得到。</p></div><div class="overview" id="overview"></div></section>
+  <section class="search-area"><div class="search-box"><span>⌕</span><input id="search" type="search" aria-label="搜索收藏" placeholder="搜索标题、标签、备注，或已保存字幕…"><kbd>/</kbd></div><div class="filters"><select id="sort" aria-label="排列方式"><option value="default">导入顺序</option><option value="updated">最近标注</option><option value="title">标题名称</option><option value="duration">视频时长</option></select><label class="check-label"><input type="checkbox" id="search-transcript">搜索字幕</label><button id="clear-filters" class="text-button" hidden>清除筛选</button><span id="result-count"></span><button id="select-all" class="quiet">选择当前结果</button></div><div id="active-filter"></div></section>
+  <div id="job-panel" class="job-panel" hidden></div>
+  <section id="batch-bar" class="batch-bar" hidden><strong id="selection-count"></strong><input id="batch-tags" aria-label="批量标签" placeholder="标签，以逗号分隔"><button id="batch-add">添加标签</button><button id="batch-remove">移除标签</button><select id="batch-study" aria-label="批量学习状态"><option value="">学习状态…</option><option value="inbox">准备学习</option><option value="learning">正在学习</option><option value="done">已学习</option></select><button id="batch-archive">本地归档</button><button id="clear-selection" aria-label="取消选择">×</button></section>
+  <div id="error-banner" class="error-banner" role="alert" hidden></div>
+  <section id="video-grid" class="video-grid" aria-label="收藏视频"><div class="empty">正在打开你的书架…</div></section>
+  <div id="pagination" class="pagination"></div>
+  <p class="bottom-note">收藏留在原处，标签帮你找回它。<span>SHIZANG · LOCAL FIRST</span></p>
+</main>
+<dialog id="detail-dialog" class="detail-dialog"><div id="detail-content"></div></dialog>
+<dialog id="utility-dialog" class="utility-dialog"><div id="utility-content"></div></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+<script type="module" src="/app.js"></script>
+</body></html>

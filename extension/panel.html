@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>B站工作台连接</title><link rel="stylesheet" href="panel.css"></head>
+<body><header><span class="eyebrow">BILIBILI · LOCAL</span><h1>B站工作台</h1><p id="status" role="status">正在读取连接…</p></header>
+<section><label for="base">本机工作台地址</label><input id="base" value="http://127.0.0.1:6861" placeholder="http://127.0.0.1:6861" autocomplete="off"><label for="code">一次性配对码</label><div class="pair-row"><input id="code" maxlength="10" autocomplete="off" placeholder="在工作台生成"><button id="pair">连接</button></div><p class="hint">先启动后台，在工作台「浏览器连接」生成配对码。配对会保留，关闭面板后下次打开自动连接。</p><button id="open-workbench" class="secondary">打开本地连接页 ↗</button></section>
+<section><h2>浏览器操作</h2><button id="bind">绑定当前B站标签页</button><p id="binding" class="hint">尚未绑定</p><label><input type="checkbox" id="control"> 允许工作台操作这个标签页</label><button id="stop" class="secondary">立即停止 / 交还给我</button><button id="snapshot">读取当前页面</button></section>
+<section><h2>实际执行结果</h2><p id="notice" role="alert"></p><pre id="debug-result">尚未执行</pre><p class="hint">保持侧栏打开即可接收操作。只控制绑定的B站标签页，不提供任意脚本、点赞或评论操作。收藏管理从本地工作台进入。</p></section>
+<script type="module" src="panel.js"></script></body></html>

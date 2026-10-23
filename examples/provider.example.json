@@ -1,0 +1,5 @@
+{
+  "base_url": "https://model.example.invalid/v1",
+  "model": "CONFIGURE_MODEL",
+  "api_key_env": "BILI_MODEL_API_KEY"
+}
